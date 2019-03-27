@@ -1,0 +1,100 @@
+.form-style {
+    margin:10px auto;
+    max-width: 500px;
+    padding: 20px 12px 10px 20px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.form-style label {
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+
+.form-style input[type="text"],
+.form-style input[type="email"],
+.form-style input[type="number"],
+.form-style input[type="tel"],
+.form-style textarea {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    resize: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    padding: 3%;
+    color: #555;
+    font: 90% Arial, Helvetica, sans-serif;
+}
+
+.form-style input[type="text"]:focus,
+.form-style input[type="email"]:focus,
+.form-style input[type="number"]:focus,
+.form-style input[type="tel"]:focus,
+.form-style textarea:focus {
+    box-shadow: 0 0 5px #FF8500;
+    padding: 3%;
+    border: 1px solid #FF8500;
+}
+
+
+.form-style input[type=submit]{
+    border: none;
+    padding: 8px 15px 8px 15px;
+    background: #FF8500;
+    color: #fff;
+    box-shadow: 1px 1px 4px #DADADA;
+    -moz-box-shadow: 1px 1px 4px #DADADA;
+    -webkit-box-shadow: 1px 1px 4px #DADADA;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+.form-style input[type=submit]:hover{
+    background: #EA7B00;
+    color: #fff;
+}
+
+.form-style .required{
+    color:red;
+}
+
+.error, .success {
+    border: 2px solid;
+    margin: 15px 0px;
+    padding:15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.success {
+    color: rgb(113, 180, 42);
+    background-color: #DFF2BF;
+    background-image:url('../icons/success.png');
+}
+
+.success span {
+    color: #000;
+}
+
+.error {
+    color: rgb(197, 36, 44);
+    background-color: #FFBABA;
+    background-image: url('../icons/error.png');
+}
+
+.error span {
+    display: block;
+}
+
+.response-message {
+    display: none;
+}
